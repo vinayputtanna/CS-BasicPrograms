@@ -6,8 +6,12 @@ namespace BasicPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Welcome back to the world of .NET");
+            //Console.WriteLine("Hello World!");
+            //Console.WriteLine("Welcome back to the world of .NET");
+            //Console.ReadKey();
+
+            StringOperations obj = new StringOperations();
+            obj.Run();
         }
     }
 }
